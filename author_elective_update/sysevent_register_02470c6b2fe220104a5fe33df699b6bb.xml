@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>This event is fired for each overdue NeedIt Task record</description>
+        <event_name>x_58872_needit.overdueNeedItTask</event_name>
+        <fired_by>Scheduled Script Execution - Find Overdue NeedIt Tasks</fired_by>
+        <queue/>
+        <suffix>overdueNeedItTask</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-03 07:29:42</sys_created_on>
+        <sys_id>02470c6b2fe220104a5fe33df699b6bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.overdueNeedItTask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_register_02470c6b2fe220104a5fe33df699b6bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-03 07:29:42</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>e32e7c9bdb2353c87e55d5b0cf9619e1</instance_id>
+        <instance_name>dev68312</instance_name>
+        <name>sysevent_register_02470c6b2fe220104a5fe33df699b6bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>This event is fired for each overdue NeedIt Task record</description><event_name>x_58872_needit.overdueNeedItTask</event_name><fired_by>Scheduled Script Execution - Find Overdue NeedIt Tasks</fired_by><queue/><suffix>overdueNeedItTask</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-03 07:29:42</sys_created_on><sys_id>02470c6b2fe220104a5fe33df699b6bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit.overdueNeedItTask</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sysevent_register_02470c6b2fe220104a5fe33df699b6bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-03 07:29:42</sys_updated_on><table>x_58872_needit_needit_task</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>-1669716776</payload_hash>
+        <record_name>x_58872_needit.overdueNeedItTask</record_name>
+        <reverted_from/>
+        <source>4fc1b24f2f2260104a5fe33df699b686</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-03 07:29:42</sys_created_on>
+        <sys_id>fe97486b2fe220104a5fe33df699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177f6fe13f90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-03 07:29:42</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>3a97486b54e22010f5eef77efce09a39</update_guid>
+        <update_guid_history>3a97486b54e22010f5eef77efce09a39:-1669716776</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-03 09:22:51</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>a36a87c8d0d647db85e7e8dabc80e569</sys_id>
+        <sys_metadata>02470c6b2fe220104a5fe33df699b6bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.overdueNeedItTask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt Task">0aa40f1f2f2220104a5fe33df699b648</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_register_02470c6b2fe220104a5fe33df699b6bb</sys_update_name>
+        <sys_update_version display_value="sysevent_register_02470c6b2fe220104a5fe33df699b6bb">fe97486b2fe220104a5fe33df699b639</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-03 09:22:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
